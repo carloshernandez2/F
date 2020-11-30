@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form method="POST" action="">
+        <label for="nombre">Nombre de Usuario</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre de usuario">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass">
+        <label for="papa">Papa</label>
+        <input type="checkbox" name="papa" id="papa">
+        <br>
+        <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="sexo" id="femenino">
+        <br>
+        <br>
+        <input type="file" name="archivo" id="archivo" value="Seleccione archivo" required>
+        <br>
+        <br>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha" readonly>
+        <br>
+        <br>
+        <select name="combo" id="combo">
+            <option value="cedula">Cédula</option>
+            <option value="tarjeta">Tarjeta de identidad</option>
+            <option value="registro">Registro civil</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="Descripción" id="text" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="resetear">
+    </form>
+</body>
+</html>
